@@ -12,6 +12,7 @@
 		DA1F4A1721B57C1B008D237F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1F4A1521B57C1B008D237F /* Main.storyboard */; };
 		DA1F4A1921B57C1D008D237F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA1F4A1821B57C1D008D237F /* Assets.xcassets */; };
 		DA1F4A1C21B57C1D008D237F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1F4A1A21B57C1D008D237F /* LaunchScreen.storyboard */; };
+		DA1F4A2421B57C2F008D237F /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1F4A2321B57C2F008D237F /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DA1F4A1821B57C1D008D237F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA1F4A1B21B57C1D008D237F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA1F4A1D21B57C1D008D237F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA1F4A2321B57C2F008D237F /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				DA1F4A1121B57C1B008D237F /* AppDelegate.swift */,
 				DA1F4A1321B57C1B008D237F /* ViewController.swift */,
+				DA1F4A2321B57C2F008D237F /* Theme.swift */,
 				DA1F4A1521B57C1B008D237F /* Main.storyboard */,
 				DA1F4A1821B57C1D008D237F /* Assets.xcassets */,
 				DA1F4A1A21B57C1D008D237F /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA1F4A2421B57C2F008D237F /* Theme.swift in Sources */,
 				DA1F4A1421B57C1B008D237F /* ViewController.swift in Sources */,
 				DA1F4A1221B57C1B008D237F /* AppDelegate.swift in Sources */,
 			);
